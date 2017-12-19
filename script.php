@@ -1,16 +1,18 @@
 <script>
-     $(document).on('click','.check-left-product',function(){
-    
-        if($(this).prop("checked")) {
-             $(this).attr('data-output',1);
-        }else {
-             $(this).attr('data-output',0);
-        } 
-     });
+     // $(document).on('click','.check-left-product',function(){
+     //     console.log($(this));
+     //    if($(this).prop("checked")) {
+     //        $(this).prop("checked", true);
+     //         $(this).attr('data-output',1);
+     //    }else {
+     //         $(this).prop("checked", false);
+     //         $(this).attr('data-output',0);
+     //    } 
+     // });
 
 
      $(document).on('click','.check-right-product',function(index){
-       console.log($(this));
+      
         if($(this).prop("checked")) {
              $(this).attr('data-output',1);
         }else {
@@ -145,10 +147,10 @@
     //     $(this).find('input').click();
     // });
     var addDrag=function(el){
-        console.log(el);
+   
         el.dragCheck({
             onDragEnd:function(element){
-                $(element).find(".check-left-product").click();
+              // $(element).find(".check-left-product").click();
                 $(element).find(".check-right-product").click();
             }
         });
@@ -156,15 +158,6 @@
     }
     addDrag($('.row'));
 
-    // $(document).on('.row','click',function(){
-    //     console.log($(this));
-    //     $(this).dragCheck({
-    //         onDragEnd:function(element){
-    //             $(element).find(".check-product").click();
-    //             $(element).find(".check-right-product").click();
-    //         }
-    //     });
-    // });
 
 
 </script>
