@@ -1,0 +1,7 @@
+{
+    "name": "anuj/amazon",
+    "require": {
+        "marcl/amazonproductapi": "^3.0",
+        "phpoffice/phpexcel": "^1.8"
+    }
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "name": "marcl/amazonproductapi",
+        "version": "3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MarcL/AmazonProductAPI.git",
+            "reference": "987f5d9487076ff623291985b81eecbe3b077c29"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MarcL/AmazonProductAPI/zipball/987f5d9487076ff623291985b81eecbe3b077c29",
+            "reference": "987f5d9487076ff623291985b81eecbe3b077c29",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.1.*"
+        },
+        "time": "2017-11-06T22:28:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MarcL\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marc Littlemore",
+                "email": "marc@marclittlemore.com",
+                "homepage": "http://www.marclittlemore.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP library to perform product lookup and searches using the Amazon Product API.",
+        "homepage": "https://github.com/MarcL/AmazonProductAPI/",
+        "keywords": [
+            "amazon",
+            "api",
+            "product"
+        ]
+    },
+    {
+        "name": "phpoffice/phpexcel",
+        "version": "1.8.1",
+        "version_normalized": "1.8.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPOffice/PHPExcel.git",
+            "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+            "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+            "shasum": ""
+        },
+        "require": {
+            "ext-xml": "*",
+            "ext-xmlwriter": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2015-05-01T07:00:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPExcel": "Classes/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Maarten Balliauw",
+                "homepage": "http://blog.maartenballiauw.be"
+            },
+            {
+                "name": "Mark Baker"
+            },
+            {
+                "name": "Franck Lefevre",
+                "homepage": "http://blog.rootslabs.net"
+            },
+            {
+                "name": "Erik Tilt"
+            }
+        ],
+        "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+        "homepage": "http://phpexcel.codeplex.com",
+        "keywords": [
+            "OpenXML",
+            "excel",
+            "php",
+            "spreadsheet",
+            "xls",
+            "xlsx"
+        ]
+    }
+]
